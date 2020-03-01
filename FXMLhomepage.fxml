@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="578.0" style="-fx-background-color: YELLOW;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="573.0" prefWidth="578.0">
+         <children>
+            <Text fill="#ee0909" strokeType="OUTSIDE" strokeWidth="0.0" text="GICHAMBIRA HARDWARE STORE : STOCK MANAGEMENT SYSTEM." textAlignment="CENTER" wrappingWidth="522.13671875">
+               <font>
+                  <Font name="AR JULIAN" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Text>
+            <Text fontSmoothingType="LCD" lineSpacing="5.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Showing all stock available." wrappingWidth="187.38671875">
+               <font>
+                  <Font name="AR JULIAN" size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Text>
+            <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="GO TO:" textAlignment="CENTER">
+               <font>
+                  <Font name="AR JULIAN" size="12.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Text>
+            <Button fx:id="button1"  mnemonicParsing="false" onAction="" prefHeight="100.0" prefWidth="406.0" text="CEMENT">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="button2" layoutX="74.0" layoutY="116.0" mnemonicParsing="false" onAction="" prefHeight="100.0" prefWidth="406.0" style="-fx-background-image: flavicon.jpg;" text="TANKS">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="button3"layoutX="74.0" layoutY="221.0" mnemonicParsing="false" onAction="" prefHeight="100.0" prefWidth="406.0" style="-fx-background-image: flavicon.jpg;" text="TILES">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="button4" mnemonicParsing="false" onAction=" " text="EXIT">
+               <VBox.margin>
+                  <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</HBox>
